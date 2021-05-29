@@ -9,7 +9,7 @@ module.exports = async(req, res) => {
 
     axios({
         method: 'get',
-        url: `https://www.jiosaavn.com/api.php?p=1&q=${reqQuery.replace(/ /gi, '+')}&_format=json&_marker=0&api_version=4&ctx=wap6dot0&n=10&__call=search.getResults`
+        url: `https://www.jiosaavn.com/api.php?p=1&q=${reqQuery.replace(/ /gi, '+')}&_format=json&_marker=0&api_version=4&ctx=wap6dot0&n=50&__call=search.getResults`
     })
 
     .then(async function(response) {

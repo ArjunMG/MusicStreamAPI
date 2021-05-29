@@ -2,6 +2,7 @@ module.exports = async(req, res) => {
     res.json({
         status: "Running",
         documentation: "https://github.com/cachecleanerjeet/JiosaavnAPI/wiki",
-        made_by: "https://github.com/cachecleanerjeet"
+        made_by: "https://github.com/cachecleanerjeet",
+        modified_by: "https://github.com/ArjunMG/"
     })
 }
