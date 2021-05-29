@@ -22,12 +22,12 @@ Jiosaavn API
 
 ### API Endpoints:
 
-- [Song Search](https://github.com/cachecleanerjeet/JiosaavnAPI/wiki/Song-Search "Song Search")
-- [Album Search](https://github.com/cachecleanerjeet/JiosaavnAPI/wiki/Album-Search "Album Search")
-- [Fetch Song](https://github.com/cachecleanerjeet/JiosaavnAPI/wiki/Fetch-Song "Fetch Song")
-- [Fetch Album](https://github.com/cachecleanerjeet/JiosaavnAPI/wiki/Fetch-Album "Fetch Album")
-- [Fetch Lyrics](https://github.com/cachecleanerjeet/JiosaavnAPI/wiki/Fetch-Lyrics "Fetch Lyrics")
-- [Fetch Song from Jiosaavn Link](https://github.com/cachecleanerjeet/JiosaavnAPI/wiki/Fetch-Song-From-Jiosaavn-Link "Fetch Song from Jiosaavn Link")
+- [Song Search](https://github.com/ArjunMG/JiosaavnAPI/wiki/Song-Search "Song Search")
+- [Album Search](https://github.com/ArjunMG/JiosaavnAPI/wiki/Album-Search "Album Search")
+- [Fetch Song](https://github.com/ArjunMG/JiosaavnAPI/wiki/Fetch-Song "Fetch Song")
+- [Fetch Album](https://github.com/ArjunMG/JiosaavnAPI/wiki/Fetch-Album "Fetch Album")
+- [Fetch Lyrics](https://github.com/ArjunMG/JiosaavnAPI/wiki/Fetch-Lyrics "Fetch Lyrics")
+- [Fetch Song from Jiosaavn Link](https://github.com/ArjunMG/JiosaavnAPI/wiki/Fetch-Song-From-Jiosaavn-Link "Fetch Song from Jiosaavn Link")
 
 
 ### Deploy Your Own:

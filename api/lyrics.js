@@ -6,6 +6,7 @@ module.exports = async(req, res) => {
     res.setHeader("Cache-Control", "s-maxage=300, stale-while-revalidate")
     res.setHeader("Open-Source", "https://github.com/cachecleanerjeet/JiosaavnAPI")
     res.setHeader("Made-By", "Tuhin Kanti Pal, https://github.com/cachecleanerjeet")
+    res.setHeader("Modified-By", "Arjun M G, https://github.com/ArjunMG/JiosaavnAPI")
 
     axios({
         method: 'get',
@@ -17,7 +18,7 @@ module.exports = async(req, res) => {
 
             res.json({
                 lyrics: data.lyrics.replace(/"/gi, "'"),
-                repo_url: "https://github.com/cachecleanerjeet/JiosaavnAPI"
+                repo_url: "https://github.com/ArjunMG/JiosaavnAPI"
             })
 
         })

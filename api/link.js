@@ -6,6 +6,7 @@ module.exports = async(req, res) => {
     res.setHeader("Cache-Control", "s-maxage=300, stale-while-revalidate")
     res.setHeader("Open-Source", "https://github.com/cachecleanerjeet/JiosaavnAPI")
     res.setHeader("Made-By", "Tuhin Kanti Pal, https://github.com/cachecleanerjeet")
+    res.setHeader("Modified-By, Arjun M G, https://github.com/ArjunMG/JiosaavnAPI")
 
     var songId = await getId(reqLink)
     if (songId == "error") res.json({ result: "false" })
@@ -47,7 +48,7 @@ module.exports = async(req, res) => {
                 perma_url: data.perma_url,
                 album_url: data.album_url,
                 release_date: data.release_date,
-                repo_url: "https://github.com/cachecleanerjeet/JiosaavnAPI"
+                repo_url: "https://github.com/ArjunMG/JiosaavnAPI"
             })
         })
         .catch(function(error) {

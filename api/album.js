@@ -61,7 +61,7 @@ module.exports = async(req, res) => {
                 songs: albumRes,
                 perma_url: data.perma_url,
                 release_date: data.release_date,
-                repo_url: "https://github.com/cachecleanerjeet/JiosaavnAPI"
+                repo_url: "https://github.com/ArjunMG/JiosaavnAPI"
             })
         })
         .catch(function(error) {
