@@ -45,7 +45,6 @@ module.exports = async(req, res) => {
                 perma_url: data.perma_url,
                 album_url: data.album_url,
                 release_date: data.release_date,
-                repo_url: "https://github.com/cachecleanerjeet/JiosaavnAPI"
             })
         })
         .catch(function(error) {
